@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SeKanKun</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="back">◀</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_camera_preview">CameraPreviewActivity</string>
+    <string name="title_activity_simple_camera">SimpleCameraActivity</string>
+    <string name="camFin">撮影終了</string>
+    <string name="submitButton">採用</string>
+    <string name="reCam">再撮影</string>
+    <string name="title_activity_main_activity2">MainActivity</string>
+    <string name="title_activity_picture_view">PictureView</string>
+    <string name="title_activity_menu">menu</string>
+    <string name="title_activity_edit_list_view">EditListView</string>
+    <string name="listAddButton">追加</string>
+    <string name="listEditButton">編集</string>
+    <string name="listDelButton">削除</string>
+    <string name="title_activity_edit_list_select_view">EditListSelectView</string>
+    <string name="title_activity_plate_on_image_view">PlateOnImageView</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_plate_edit_on_image_view">PlateEditOnImageView</string>
+
+</resources>

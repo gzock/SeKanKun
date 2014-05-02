@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sekankun.app" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.sekankun.app.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.sekankun.app.SimpleCameraActivity"
+            android:label="@string/title_activity_simple_camera"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.sekankun.app.PictureView"
+            android:label="@string/title_activity_picture_view" >
+        </activity>
+        <activity
+            android:name="com.example.sekankun.app.EditListView"
+            android:label="@string/title_activity_edit_list_view" >
+        </activity>
+        <activity
+            android:name="com.example.sekankun.app.EditListSelectView"
+            android:label="@string/title_activity_edit_list_select_view" >
+        </activity>
+        <activity
+            android:name=".PlateEditOnImageView"
+            android:label="@string/title_activity_plate_edit_on_image_view" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+</manifest>

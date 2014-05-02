@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    android:screenOrientation="landscape"
+    tools:context="com.example.sekankun.app.SimpleCameraActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/cameraPreview">
+
+    </FrameLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/camFin"
+        android:id="@+id/camFinButton"
+        android:layout_gravity="right|bottom" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:text="@string/submitButton"
+        android:id="@+id/submitButton"
+        android:layout_gravity="center_horizontal|bottom"
+        android:enabled="false" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reCam"
+        android:id="@+id/reCamButton"
+        android:layout_gravity="left|bottom"
+        android:enabled="false" />
+
+
+
+</FrameLayout>

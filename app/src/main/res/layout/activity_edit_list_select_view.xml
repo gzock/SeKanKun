@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sekankun.app.EditListSelectView"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="450dp"
+            android:id="@+id/editListView"
+            android:choiceMode="singleChoice" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:weightSum="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/listAddButton"
+                android:id="@+id/listAddButton"
+                android:layout_weight="0.35"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/listEditButton"
+                android:id="@+id/listEditButton"
+                android:layout_weight="0.35"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="73dp"
+                android:text="@string/listDelButton"
+                android:id="@+id/listDelButton"
+                android:layout_weight="0.35"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
